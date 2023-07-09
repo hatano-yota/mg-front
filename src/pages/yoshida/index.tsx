@@ -1,4 +1,4 @@
-import CommonImage from "@/components/common/commonImage";
+import CommonImage from "@/components/common/CommonImage";
 import { NextPage } from "next";
 
 const rowTitle1 = "HABUMIZUHO";
