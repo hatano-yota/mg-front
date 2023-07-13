@@ -64,8 +64,8 @@ const YoshidaPage: NextPage = () => {
               style={{ objectFit: "cover" }}
             />
           </div>
-
-          <div className="w-[12%] pr-10 overflow-y-auto overscroll-auto">
+          {/* TODO: スクロールバー自作 */}
+          <div className="w-[12%] pr-[2.5vh] overflow-y-auto overscroll-auto scrollbar-none">
             <div className="relative w-full h-[9vh] ">
               <CommonImage
                 src="/habuchaan/habuchan4.jpg"
@@ -74,7 +74,7 @@ const YoshidaPage: NextPage = () => {
                 style={{ objectFit: "cover" }}
               />
             </div>
-            <div className="relative w-full mt-5 h-[9vh] ">
+            <div className="relative w-full mt-[2.2vh] h-[9vh] ">
               <CommonImage
                 src="/habuchaan/habuchan2.jpg"
                 alt="main photo"
@@ -82,7 +82,7 @@ const YoshidaPage: NextPage = () => {
                 style={{ objectFit: "cover" }}
               />
             </div>
-            <div className="relative w-full mt-5 h-[9vh] ">
+            <div className="relative w-full mt-[2.2vh] h-[9vh] ">
               <CommonImage
                 src="/habuchaan/habuchan6.jpg"
                 alt="main photo"
@@ -90,7 +90,7 @@ const YoshidaPage: NextPage = () => {
                 style={{ objectFit: "cover" }}
               />
             </div>
-            <div className="relative w-full mt-5 h-[9vh] ">
+            <div className="relative w-full mt-[2.2vh] h-[9vh] ">
               <CommonImage
                 src="/habuchaan/habuchan17.jpg"
                 alt="main photo"
@@ -98,7 +98,7 @@ const YoshidaPage: NextPage = () => {
                 style={{ objectFit: "cover" }}
               />
             </div>
-            <div className="relative w-full mt-5 h-[9vh] ">
+            <div className="relative w-full mt-[2.2vh] h-[9vh] ">
               <CommonImage
                 src="/habuchaan/habuchan18.jpg"
                 alt="main photo"
@@ -106,7 +106,7 @@ const YoshidaPage: NextPage = () => {
                 style={{ objectFit: "cover" }}
               />
             </div>
-            <div className="relative w-full mt-5 h-[9vh] ">
+            <div className="relative w-full mt-[2.2vh] h-[9vh] ">
               <CommonImage
                 src="/habuchaan/habuchan19.jpg"
                 alt="main photo"
@@ -114,7 +114,7 @@ const YoshidaPage: NextPage = () => {
                 style={{ objectFit: "cover" }}
               />
             </div>
-            <div className="relative w-full mt-5 h-[9vh] ">
+            <div className="relative w-full mt-[2.2vh] h-[9vh] ">
               <CommonImage
                 src="/habuchaan/habuchan27.jpg"
                 alt="main photo"
@@ -122,7 +122,7 @@ const YoshidaPage: NextPage = () => {
                 style={{ objectFit: "cover" }}
               />
             </div>
-            <div className="relative w-full mt-5 h-[9vh] ">
+            <div className="relative w-full mt-[2.2vh] h-[9vh] ">
               <CommonImage
                 src="/habuchaan/habuchan22.jpg"
                 alt="main photo"
@@ -130,7 +130,7 @@ const YoshidaPage: NextPage = () => {
                 style={{ objectFit: "cover" }}
               />
             </div>
-            <div className="relative w-full mt-5 h-[9vh] ">
+            <div className="relative w-full mt-[2.2vh] h-[9vh] ">
               <CommonImage
                 src="/habuchaan/habuchan23.jpg"
                 alt="main photo"
